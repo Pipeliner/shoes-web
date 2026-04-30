@@ -1,1 +1,118 @@
-{"name": "Shoes", "icons": [{"src": "icons/icon-72x72.png", "sizes": "72x72", "type": "image/png", "purpose": "any"}, {"src": "icons/icon-72x72-maskable.png", "sizes": "72x72", "type": "image/png", "purpose": "maskable"}, {"src": "icons/icon-96x96.png", "sizes": "96x96", "type": "image/png", "purpose": "any"}, {"src": "icons/icon-96x96-maskable.png", "sizes": "96x96", "type": "image/png", "purpose": "maskable"}, {"src": "icons/icon-128x128.png", "sizes": "128x128", "type": "image/png", "purpose": "any"}, {"src": "icons/icon-128x128-maskable.png", "sizes": "128x128", "type": "image/png", "purpose": "maskable"}, {"src": "icons/icon-144x144.png", "sizes": "144x144", "type": "image/png", "purpose": "any"}, {"src": "icons/icon-144x144-maskable.png", "sizes": "144x144", "type": "image/png", "purpose": "maskable"}, {"src": "icons/icon-152x152.png", "sizes": "152x152", "type": "image/png", "purpose": "any"}, {"src": "icons/icon-152x152-maskable.png", "sizes": "152x152", "type": "image/png", "purpose": "maskable"}, {"src": "icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"}, {"src": "icons/icon-192x192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"}, {"src": "icons/icon-384x384.png", "sizes": "384x384", "type": "image/png", "purpose": "any"}, {"src": "icons/icon-384x384-maskable.png", "sizes": "384x384", "type": "image/png", "purpose": "maskable"}, {"src": "icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}, {"src": "icons/icon-512x512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}], "lang": "en-US", "start_url": "./index.html", "display": "standalone", "background_color": "black", "theme_color": "black", "launch_handler": {"route_to": "existing-client", "navigate_existing_client": "always"}, "orientation": "landscape-primary", "display_override": ["fullscreen", "minimal-ui"]}
+{
+  "background_color": "#000000",
+  "description": "A visual novel about CPTSD / CEN / ACoA \u2014 adult protagonist whose agency is mediated by internal parts that negotiate, veto, and occasionally collaborate.",
+  "display": "standalone",
+  "display_override": [
+    "fullscreen",
+    "minimal-ui"
+  ],
+  "icons": [
+    {
+      "purpose": "any",
+      "sizes": "72x72",
+      "src": "icons/icon-72x72.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "72x72",
+      "src": "icons/icon-72x72-maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "96x96",
+      "src": "icons/icon-96x96.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "96x96",
+      "src": "icons/icon-96x96-maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "128x128",
+      "src": "icons/icon-128x128.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "128x128",
+      "src": "icons/icon-128x128-maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "144x144",
+      "src": "icons/icon-144x144.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "144x144",
+      "src": "icons/icon-144x144-maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "152x152",
+      "src": "icons/icon-152x152.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "152x152",
+      "src": "icons/icon-152x152-maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "192x192",
+      "src": "icons/icon-192x192.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "192x192",
+      "src": "icons/icon-192x192-maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "384x384",
+      "src": "icons/icon-384x384.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "384x384",
+      "src": "icons/icon-384x384-maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "icons/icon-512x512.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "icons/icon-512x512-maskable.png",
+      "type": "image/png"
+    }
+  ],
+  "lang": "en",
+  "launch_handler": {
+    "navigate_existing_client": "always",
+    "route_to": "existing-client"
+  },
+  "name": "Shoes",
+  "orientation": "landscape-primary",
+  "short_name": "Shoes",
+  "start_url": "./index.html",
+  "theme_color": "#99aacc",
+  "version": "0.1.18-40"
+}
